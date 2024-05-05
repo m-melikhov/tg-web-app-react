@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "src/components/Button/Button.jsx";
+import { Button } from "semantic-ui-react";
 import { useTelegram } from "../../hooks/useTelegram";
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div className={'header'}>
-      <Button onClick={onClose}>Закритиvjs</Button>
+      <Button onClick={onClose}>Закрити</Button>
       <span className={'username'}>
         {user?.username}
       </span>
